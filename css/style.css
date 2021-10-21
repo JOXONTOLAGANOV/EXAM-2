@@ -45,7 +45,7 @@ a{
     margin-top: -18px;
 }
 .link:hover{
-    color: #00BAFC;
+    color: yellowgreen;
 }
 .link1{
     transition: .3s;
@@ -283,6 +283,74 @@ a{
         width: 240%;
         position: relative;
         margin-left: -170px;
+    }
+}
+
+
+@media (max-width:620px){
+    ._link_{
+       width: 150%;
+        position: relative;
+        left: -50px;
+    }
+
+    .link_01{
+        width: 170%;
+        position: absolute;
+       margin-left: -75px;
+       top: 10px;
+    }
+}
+
+
+
+@media (max-width:520px){
+    ._link_{
+       width: 160px;
+        position: relative;
+        left: -100px;
+    }
+
+    .link_01{
+        width: 200px;
+        position: absolute;
+       margin-left: 425px;
+       top: -20px;
+       left: 100px;
+    }
+}
+
+
+
+@media (max-width:820px){
+    ._link_{
+       width: 160px;
+        position: relative;
+        left: -100px;
+    }
+
+    .link_01{
+        width: 200px;
+        position: absolute;
+       margin-left: -290px;
+       top: 50px;
+    }
+}
+
+
+
+@media (max-width:420px){
+    ._link_{
+       width: 160px;
+        position: relative;
+        left: -150px;
+    }
+
+    .link_01{
+        width: 200px;
+        position: absolute;
+       margin-left: -180px;
+       top: 10px;
     }
 }
 
@@ -590,3 +658,55 @@ a{
     margin-left: 50px;
 }
 
+
+
+.div_text{
+   position: relative;
+   left: 380px;
+   margin-top: 50px;
+}
+
+.div_textt{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    margin-top: 5px;
+}
+
+
+
+
+@media (max-width: 920px) {
+   .div_text{
+     position: relative;
+     left: 60px;
+   }
+}
+
+
+
+@media (max-width: 820px) {
+   .div_textt{
+       position: relative;
+       left: 194px;
+   }
+ }
+
+ 
+@media (max-width: 720px) {
+    .div_textt{
+        position: relative;
+        left: 170px;
+    }
+  }
+
+  
+ 
+@media (max-width: 520px) {
+    .div_textt{
+        position: relative;
+        left: -10px;
+        width: 120%;
+    }
+  }
